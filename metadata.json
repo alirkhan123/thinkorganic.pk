@@ -1,0 +1,6 @@
+{
+  "name": "Nuts & Dry Fruits Cost & Margin Calculator",
+  "description": "Internal cost accounting, formulation pricing, and profit margin calculator for dry fruit brands with PKR pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
