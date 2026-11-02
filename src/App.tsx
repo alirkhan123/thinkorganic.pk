@@ -45,6 +45,7 @@ import {
   Scale,
   DollarSign,
 } from 'lucide-react';
+import bannerImg from './assets/images/dryfruits_blend_banner_1793630773345.jpg';
 
 export default function App() {
   // Persistence in localStorage
@@ -295,7 +296,7 @@ export default function App() {
             {/* Visual Photography Asset */}
             <div className="lg:col-span-4 relative min-h-[180px] lg:min-h-full bg-stone-900 overflow-hidden">
               <img
-                src="/src/assets/images/dryfruits_blend_banner_1793630773345.jpg"
+                src={bannerImg}
                 alt="Assorted premium Pakistani dry fruits and nuts flat lay"
                 className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
